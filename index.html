@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Calculadora Con Html, Css y Javascript</h1>
+    <h2>Por Leo Lopez</h2>
+    <div class="calculadora">
+        <div id="pantallas">
+            <input type="text" id="pantalla" readonly>
+            <input type="text" id="subpantalla" readonly >
+        </div>
+        <div id="botones">
+            <input class="boton-violeta" type="button" value="C" onclick="borrar()">
+            <input class="boton-gris-claro" type="button" value="(" onclick="agregar('()')">
+            <input class="boton-gris-claro" type="button" value="%" onclick="agregar('%')">
+            <input class="boton-gris-claro" type="button" value="/" onclick="agregar('/')"> 
+            <input class="boton-gris-oscuro" type="button" value="7" onclick="agregar('7')">
+            <input class="boton-gris-oscuro" type="button" value="8" onclick="agregar('8')">
+            <input class="boton-gris-oscuro" type="button" value="9" onclick="agregar('9')">
+            <input class="boton-gris-claro" type="button" value="+" onclick="agregar('+')">
+            <input class="boton-gris-oscuro" type="button" value="4" onclick="agregar('4')">
+            <input class="boton-gris-oscuro" type="button" value="5" onclick="agregar('5')">
+            <input class="boton-gris-oscuro" type="button" value="6" onclick="agregar('6')">
+            <input class="boton-gris-claro" type="button" value="-" onclick="agregar('-')">
+            <input class="boton-gris-oscuro" type="button" value="1" onclick="agregar('1')">
+            <input class="boton-gris-oscuro" type="button" value="2" onclick="agregar('2')">
+            <input class="boton-gris-oscuro" type="button" value="3" onclick="agregar('3')">
+            <input class="boton-gris-claro" type="button" value="*" onclick="agregar('*')">
+            <input class="boton-gris-oscuro" type="button" value="0" onclick="agregar('0')">
+            <input class="boton-gris-oscuro" type="button" value="." onclick="agregar('.')">
+            <input class="boton-gris-oscuro" type="button" value="⬅️" onclick="borrarUno()">
+            <input class="boton-celeste" type="button" value="=" onclick="calcular()">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
