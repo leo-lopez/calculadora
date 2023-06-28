@@ -53,11 +53,12 @@ h2 {
 }
 #subpantalla{
   background-color: #666;
+  color: #fff;
   width: 92%;
   height: 10%;
   padding: 10px;
   border: none;
-  font-size: 20px;
+  font-size: 28px;
   border-radius: 15px;
   text-align: right;
 }
