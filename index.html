@@ -15,7 +15,7 @@
     <div class="calculadora">
         <div id="pantallas">
             <input type="text" id="pantalla" readonly>
-            <input type="text" id="subpantalla" readonly >
+            <div id="subpantalla"></div>
         </div>
         <div id="botones">
             <input class="boton-violeta" type="button" value="C" onclick="borrar()">
@@ -36,7 +36,7 @@
             <input class="boton-gris-claro" type="button" value="x" onclick="agregar('*')">
             <input class="boton-gris-oscuro" type="button" value="0" onclick="agregar('0')">
             <input class="boton-gris-oscuro" type="button" value="." onclick="agregar('.')">
-            <input class="boton-gris-oscuro" type="button" value="⬅️" onclick="borrarUno()">
+            <input class="boton-gris-oscuro" type="button" value="⌫" onclick="borrarUno()">
             <input class="boton-celeste" type="button" value="=" onclick="calcular()">
         </div>
     </div>
